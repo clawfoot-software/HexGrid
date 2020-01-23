@@ -9,7 +9,7 @@ namespace Barbar.HexGridExample
 {
     public partial class FormExample : Form
     {
-        private HexLayout<Barbar.HexGrid.Point, PointPolicy> _grid = HexLayoutFactory.CreatePointyHexLayout(new Barbar.HexGrid.Point(64, 64), new Barbar.HexGrid.Point(0, 0), Offset.Even);
+        private HexLayout _grid = HexLayoutFactory.CreatePointyHexLayout(new Barbar.HexGrid.Point(64, 64), new Barbar.HexGrid.Point(0, 0), Offset.Even);
 
         public FormExample()
         {
